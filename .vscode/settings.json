@@ -1,0 +1,9 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build/${command:cmake.activeFolderName}_${buildType}_${buildKit}",
+    "cmake.sourceDirectory": [
+        "${workspaceFolder}/ProjectA",
+        "${workspaceFolder}/ProjectB"
+    ],
+    "cmake.parallelJobs": 0,
+    "cmake.buildToolArgs": ["-j"]
+}
